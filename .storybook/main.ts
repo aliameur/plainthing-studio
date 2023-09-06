@@ -1,4 +1,5 @@
 import type { StorybookConfig } from "@storybook/nextjs";
+
 const path = require("path");
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 
@@ -9,6 +10,10 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
+    {
+      name: "@storybook/addon-styling",
+      options: {},
+    },
   ],
   framework: {
     name: "@storybook/nextjs",

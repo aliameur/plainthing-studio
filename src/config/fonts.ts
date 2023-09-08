@@ -10,10 +10,10 @@ export const PPNeueMachinaPlain = localFont({
       path: "../../public/fonts/PPNeueMachina-PlainRegular.otf",
       weight: "400",
     },
-    {
-      path: "../../public/fonts/PPNeueMachina-PlainUltraBold.otf",
-      weight: "800",
-    },
+    // {
+    //   path: "../../public/fonts/PPNeueMachina-PlainUltraBold.otf",
+    //   weight: "800",
+    // },
   ],
   variable: "--font-machinaplain",
 });
@@ -28,10 +28,10 @@ export const PPNeueMachinaInktrap = localFont({
       path: "../../public/fonts/PPNeueMachina-InktrapRegular.otf",
       weight: "400",
     },
-    {
-      path: "../../public/fonts/PPNeueMachina-InktrapUltraBold.otf",
-      weight: "800",
-    },
+    // {
+    //   path: "../../public/fonts/PPNeueMachina-InktrapUltraBold.otf",
+    //   weight: "800",
+    // },
   ],
   variable: "--font-machinainktrap",
 });

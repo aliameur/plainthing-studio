@@ -5,7 +5,7 @@ import { useRef } from "react";
 export const Carousel = () => {
   const ref = useRef<HTMLDivElement>(null);
   return (
-    <div className="-mx-[64px] flex overflow-hidden" ref={ref}>
+    <div className="relative -mx-[64px] flex overflow-hidden" ref={ref}>
       {Array.from({ length: 2 }).map((_, idx) => (
         <motion.li
           key={idx}
@@ -25,6 +25,8 @@ export const Carousel = () => {
           <div className="h-[55px] w-[55px] rounded-full bg-[#31bdd6]" />
         </motion.li>
       ))}
+      <div className="absolute bottom-0 left-0 top-0 w-48 bg-gradient-to-r from-[#1A181E]" />
+      <div className="absolute bottom-0 right-0 top-0 w-48 bg-gradient-to-l from-[#1A181E]" />
     </div>
   );
 };

@@ -6,7 +6,18 @@ const animationDuration = 15;
 export const Carousel = () => {
   return (
     <div>
-      <div className="-mx-16 flex items-center overflow-hidden">
+      <motion.div
+        className="-mx-16 flex items-center overflow-hidden"
+        initial={{ scale: 0.4, opacity: 0 }}
+        whileInView={{ scale: 1, opacity: 1 }}
+        viewport={{
+          once: true,
+        }}
+        transition={{
+          duration: 0.8,
+          delay: 0.3,
+        }}
+      >
         {Array.from({ length: 3 }).map((_, idx) => (
           <motion.li
             key={idx}
@@ -22,8 +33,19 @@ export const Carousel = () => {
             <TopLine />
           </motion.li>
         ))}
-      </div>
-      <div className="-mx-16 flex items-center overflow-hidden">
+      </motion.div>
+      <motion.div
+        className="-mx-16 flex items-center overflow-hidden"
+        initial={{ scale: 0.4, opacity: 0 }}
+        whileInView={{ scale: 1, opacity: 1 }}
+        viewport={{
+          once: true,
+        }}
+        transition={{
+          duration: 0.8,
+          delay: 0.45,
+        }}
+      >
         {Array.from({ length: 3 }).map((_, idx) => (
           <motion.li
             key={idx}
@@ -39,7 +61,7 @@ export const Carousel = () => {
             <BottomLine />
           </motion.li>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 };

@@ -5,8 +5,8 @@ with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/
 
 ## Overview
 
-This project is a fully-realized web implementation of a designer's vision from Dribbble (designer's name and link will
-be updated later). It's designed to be visually striking and animation-heavy, featuring elements like infinite
+This project is a fully-realized web implementation of a designer's vision from Herdetya Priambodo on Dribbble. It's
+designed to be visually striking and animation-heavy, featuring elements like infinite
 carousels, on-scroll animations, and parallax & horizontal scrolling effects. This site was built using Next.js and
 Framer Motion to demonstrate that even the most intricate and dynamic designs can be brought to life on the web.
 
@@ -15,7 +15,9 @@ Framer Motion to demonstrate that even the most intricate and dynamic designs ca
 This project is intended to serve as a portfolio piece for me as a Frontend Developer. It's also an invitation to
 designers who are looking to collaborate on creating web experiences without limitations.
 
-## [Live Demo]()
+## [Live Demo](https://plainthing-studio.vercel.app)
+
+## [Original Design](https://dribbble.com/shots/20296513-Plainthing-Studio-New-Website)
 
 ## Tech Stack
 
